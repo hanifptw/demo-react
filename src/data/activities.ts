@@ -1,4 +1,10 @@
-export const activities = [
+type dataActivities = {
+  id: number;
+  title: string;
+  isDone: boolean;
+};
+
+export const dataActivities = [
   {
     id: 1,
     title: "Lari Pagi",
